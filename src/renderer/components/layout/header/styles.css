@@ -1,0 +1,19 @@
+/* 头部容器 */
+.header-container {
+  @apply fixed top-0 left-0 right-0 h-16 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60;
+}
+
+/* 头部内容 */
+.header-content {
+  @apply container flex h-full items-center justify-between;
+}
+
+/* 头部左侧 */
+.header-left {
+  @apply flex items-center gap-4;
+}
+
+/* 头部右侧 */
+.header-right {
+  @apply flex items-center gap-4;
+} 
